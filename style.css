@@ -3,4 +3,41 @@ body {
     min-height: 100vh;
     margin: 0; padding: 0;
 }
-
+.header{
+    background-color: #F1F1F1;
+    font-size: 36px;
+}
+.header-row{
+    display:flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-bottom: 76px;
+}
+.header-content{
+    max-width: 500px;
+    margin: auto;
+}
+.header-heading{
+    margin-bottom:20px;
+    font-weight:600;
+    font-size: 44px;
+}
+.main-information{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 30px;
+    margin-bottom: 76px;
+}
+.contacts-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(91, 0, 85);
+    text-transform: uppercase;
+}
+.about-container{
+    text-align: center;
+    vertical-align: middle;
+}
+.footer-info{
+    text-align: center;
+}
