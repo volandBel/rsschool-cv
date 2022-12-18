@@ -1,3 +1,6 @@
-* {
-    color: red;
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    margin: 0; padding: 0;
 }
+
